@@ -1,2 +1,32 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cover-image2.jpg');
+  background-size: cover;
+  height: 400px;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+  color: white;
+}
+
+.jumbotron h1 {
+  color: red;
+}
+.jumbotron h2 {
+  color: white;
+}
+
+h2 {
+  color: #c9302c
+}

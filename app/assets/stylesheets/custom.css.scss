@@ -5,16 +5,17 @@
   text-align: center;
 }
 
-.jumbotron {
-  background-image: asset-url('cover-image2.jpg');
-  background-size: cover;
-  height: 400px;
+body {
+  background: #E9EFF5;
 }
 
-.white {
-  display: inline-block;
-  background-color: rgba(255, 255, 255, 0.25);
+.jumbotron {
+  padding-top: 138px;
+  background-image: asset-url('cover-image.jpg');
+  background-size: cover;
+  height: 500px;
 }
+
 
 #logo {
   float: left;
@@ -24,7 +25,9 @@
   font-weight: bold;
   color: white;
 }
+
 .navbar-inverse {
+  border-radius: 0px;
   background-color: #2c3338
 }
 
@@ -40,30 +43,36 @@
   border: 1px solid #ab235a;
 }
 
+.jumbotron .btn-default {
+  background: #135E96;
+  color: white;
+  border: none;
+}
+
+.jumbotron .btn-default:hover {
+  background: #5198D9;
+  border: none;
+}
 
 .jumbotron h1 {
-  color: #135e96;
-  font-family: "Comic Sans MS";
+  color: #E9EFF5;
+  font-family: "Segoe Script";
 }
 .jumbotron h2 {
-  color: #F6F7F7;
-  font-family: "Comic Sans MS";
+  color: #E9EFF5;
+  font-family: "Segoe Print";
 }
 
 .btn-danger {
-  background-color: #135E96;
-  color: white;
-  border: 1px solid #135E96;
+
 }
 
 .btn-danger:hover {
-  background-color: #0A4B78;
-  color: white;
-  border: 1px solid #0A4B78;
+
 }
 
-h2 {
-  color: #c9302c
+h1.header_tag, h2.header_tag {
+  color: #135e96;
 }
 
 footer {
@@ -79,14 +88,6 @@ footer {
   color: #c9302c;
 }
 
-
-.header_tag {
-  color: #c9302c;
-}
-
-.well a {
-  color: #c9302c;
-}
 
 .chef_info {
   margin-top: 10px;

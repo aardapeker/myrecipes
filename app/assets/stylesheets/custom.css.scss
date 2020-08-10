@@ -79,8 +79,8 @@ footer {
   border-top: 1px solid #eaeaea;
   color: #777;
   padding-top: 7px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .description {
@@ -101,4 +101,12 @@ footer {
 .chef-title {
   font-weight: bold;
   font-size: 1.25em;
+}
+
+span#ingredient-id a {
+  color: white;
+}
+
+.input_checkbox input {
+  width: auto !important;
 }
